@@ -1,0 +1,27 @@
+.log-in{
+    display:flex;
+    flex-direction: column;
+}
+
+.log-in-text{
+   margin-top : 40px;
+   padding:13px;
+}
+
+.log-in-password{
+    margin-bottom:20px;
+    padding:13px;
+}
+
+.log-in-button1{
+    padding:9px;
+    background-color: yellow;
+}
+.log-in-button2{
+    padding:9px;
+    background-color:wheat;
+}
+.log-in a{
+    margin-top:8px;
+    text-align : center;
+}
