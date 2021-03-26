@@ -2,13 +2,8 @@
 @import "header.css";
 @import "log-in.css";
 @import "status.css";
+@import "friends.css";
 
 body{
 background-color:rgb(230, 230, 141);
-}
-.status-bar{
-    display:flex;
-    background-color:beige;
-    justify-content : space-between;
-    font-style: italic;
 }
