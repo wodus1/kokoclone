@@ -27,12 +27,12 @@
             <h1 class = "first-header-title">카카오톡에 오신걸 환영합시다</h1>
             <p class = "first-header-text">카카오 아이디 보유자는 이메일 혹은 전화번호를 입력하시요.</p>
         </header>
-        <form class = "log-in">
-            <input type="text" class= "log-in-text" placeholder="Email or phone number">
-            <input type="password" class= "log-in-password" placeholder="Password">
-            <button class="log-in-button1" type="button">Log in</button>
+        <form class = "log-in" action="friends.html" method="get">
+            <input name="user"type="text" class= "log-in-text" placeholder="Email or phone number">
+            <input name="password"type="password" class= "log-in-password" placeholder="Password">
+            <button class="log-in-button1" type="submit">Log in</button>
             <button class="log-in-button2" type="button">Sign Up</button>
-            <a href="#" class="log-in-link">아이디 및 비밀번호 찾기</a>
+            <a href="#">아이디 및 비밀번호 찾기</a>
         </form>
     
     </body>

@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "header.css";
 @import "log-in.css";
+@import "status.css";
 
 body{
 background-color:rgb(230, 230, 141);

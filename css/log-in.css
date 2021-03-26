@@ -1,26 +1,42 @@
 .log-in{
     display:flex;
     flex-direction: column;
+    margin:0px 20px;
+}
+
+.log-in,.log-in-text,.log-in-password,.log-in-button1,.log-in-button2{
+    border:none;
+}
+
+input:focus{
+    outline :none;
+    font-size : 15px;
+    font-weight: 600;
 }
 
 .log-in-text{
    margin-top : 40px;
    padding:13px;
+ 
 }
 
 .log-in-password{
     margin-bottom:20px;
     padding:13px;
+    border-top:1px solid rgba(0,0,0,0.5);
 }
 
 .log-in-button1{
     padding:9px;
     background-color: yellow;
+    margin-bottom:7px;
 }
+
 .log-in-button2{
     padding:9px;
     background-color:wheat;
 }
+
 .log-in a{
     margin-top:8px;
     text-align : center;

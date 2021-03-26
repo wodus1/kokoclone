@@ -1,0 +1,6 @@
+.status-bar{
+    display:flex;
+    background-color:beige;
+    justify-content : space-between;
+    font-style: italic;
+}
