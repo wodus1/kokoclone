@@ -1,6 +1,57 @@
-.nav-header-bar{
+.header-status-bar{
     display:flex;
-    background-color:beige;
+    background-color:rgb(230, 230, 141);
     justify-content : space-between;
     font-style: italic;
+    padding:10px;
+    align-items:center;
+    margin: 0px 25px;
+}
+.header-status-bar > h1{
+    font-size:xx-large;
+}
+#header-status-bar_icon>i{
+    margin-left: 13px;
+    font-size: 18px;
+}
+
+#follow-count{
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    color:rgba(0,0,0,0.5);
+}
+#follow-count>i{
+    margin-right:10px;
+    font-size:20px;
+    align-items: center;
+}
+
+#friend-menu{
+    margin: 0px 25px;
+}
+
+.user-avatar>img{
+    border-radius:15px;
+}
+.user-avatar>span{
+    font-size:30px;
+}
+
+.nav{
+    background-color:beige;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    border-top: 1px solid;
+}
+.nav-list{
+    display:flex;
+    padding:10px 30px;
+    font-size:30px;
+    justify-content:space-between;
+}
+.nav-btn{
+    padding:0px 100px;
 }
