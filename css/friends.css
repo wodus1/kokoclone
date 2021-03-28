@@ -20,6 +20,9 @@
     justify-content : center;
     align-items: center;
     color:rgba(0,0,0,0.5);
+    background-color:rgb(236, 236, 112);
+    padding:5px 0px;
+    margin-bottom:10px;
 }
 #follow-count>i{
     margin-right:10px;
@@ -27,7 +30,8 @@
     align-items: center;
 }
 
-#friend-menu{
+
+#friend-menu :not(.friend-menu-channel){
     margin: 0px 25px;
 }
 
@@ -38,20 +42,13 @@
     font-size:30px;
 }
 
-.nav{
-    background-color:beige;
-    position:fixed;
-    bottom:0;
-    width:100%;
-    box-sizing: border-box;
-    border-top: 1px solid;
-}
-.nav-list{
+
+.friend-menu-channel{
     display:flex;
-    padding:10px 30px;
-    font-size:30px;
     justify-content:space-between;
-}
-.nav-btn{
-    padding:0px 100px;
+    background-color:rgb(236, 236, 112);
+    margin:20px 0px;
+    padding:10px 10px 10px 25px;
+    color:rgba(0,0,0,0.7);
+
 }

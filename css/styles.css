@@ -3,6 +3,7 @@
 @import "log-in.css";
 @import "status.css";
 @import "friends.css";
+@import "nav.css";
 
 body{
 background-color:rgb(230, 230, 141);
