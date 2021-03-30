@@ -4,8 +4,9 @@
 @import "status.css";
 @import "friends.css";
 @import "nav.css";
+@import "chats.css";
 
 body{
-background-color:rgb(230, 230, 141);
+background-color:white;
 height:1000vh;
 }
