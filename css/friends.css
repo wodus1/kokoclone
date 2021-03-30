@@ -31,17 +31,14 @@
 }
 
 
-#friend-menu :not(.friend-menu-channel){
-    margin: 0px 25px;
+#friend-menu :not(.friend-menu-channel, .follower-avatar>p){
+    margin: 0px 0px 0px 25px;
 }
 
 .user-avatar>img{
-    border-radius:15px;
+    background-color: lawngreen;
+    border-radius:20px;
 }
-.user-avatar>span{
-    font-size:30px;
-}
-
 
 .friend-menu-channel{
     display:flex;
@@ -50,5 +47,43 @@
     margin:20px 0px;
     padding:10px 10px 10px 25px;
     color:rgba(0,0,0,0.7);
+}
 
+.user-avatar{
+    display:flex;
+    flex-direction: row;
+    border-radius: 40px;
+    font-size:40px;
+    color:rgba(0,0,0,0.8);
+}
+.user-avatar_img{
+    height: 100px;
+    width: 110px;
+}
+.user-avatar>span{
+    padding-top: 28px;
+}
+
+.follower-avatar{
+    display:flex;
+    flex-direction: row;
+    color:rgba(0,0,0,0.8);
+    justify-content: space-between;
+    position:relative;
+}
+.follower-avatar_img{
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+}
+.follower-avatar>span{
+    position:absolute;
+    left:100px;
+    top:28px;
+    font-size:20px;
+    font-weight:900;
+    color:rgba(0,0,0,0.6);
+} 
+.follower-avatar>p{
+    margin: 30px;
 }
