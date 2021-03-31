@@ -31,8 +31,8 @@
 }
 
 
-#friend-menu :not(.follower-avatar>p,.follower-avatar>p>i){
-    margin: 0px 20px;
+#friend-menu :not(.follower-avatar>p,.follower-avatar>p>i,.user-avatar>span){
+    margin: 0px 20px 10px 20px;
 }
 
 .user-avatar>img{
@@ -53,15 +53,16 @@
     display:flex;
     flex-direction: row;
     border-radius: 40px;
-    font-size:40px;
+    font-size:35px;
     color:rgba(0,0,0,0.8);
+    margin-bottom:10px;
 }
 .user-avatar_img{
-    height: 100px;
-    width: 110px;
+    height: 80px;
+    width: 90px;
 }
 .user-avatar>span{
-    padding-top: 28px;
+    padding-top: 23px;
 }
 
 .follower-avatar{
@@ -73,21 +74,22 @@
 }
 .follower-avatar_img{
     border-radius: 40px;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 .follower-avatar>span{
     position:absolute;
     left:100px;
-    top:28px;
+    top:20px;
     font-size:20px;
     font-weight:900;
     color:rgba(0,0,0,0.6);
 } 
 .follower-avatar>p{
-    margin: 30px;
+    margin: 19px;
 }
 .follower-avatar>p>i{
+    align-items: center;
     margin:0px 0px 0px 5px;
 }
 

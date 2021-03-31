@@ -1,3 +1,42 @@
-#chats-menu :not(.follower-avatar>p,.follower-avatar>p>i){
+#chats-menu{
+    margin:10px;
+}
+#chats-menu :not(.chats_status>span,.follower-avatar>p,.follower-avatar>p>i,#follower-avatar_chats>span,#follower-avatar_chats){
     margin: 0px 20px;
+}
+
+#follower-avatar_chats{
+    display:flex;
+    font-size:13px;
+}
+#follower-avatar_chats>span{
+    font-style: italic;
+    font-weight:900;
+    font-size:18px;
+    position:relative;
+    display:block;
+    padding-top:5px;
+}
+#chats_command{
+    position:absolute;
+    top:10px;
+    left:84px;
+}
+
+.chats_status{
+    position:relative;
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
+    border-top:10px;
+    padding-top:10px;
+}
+.chats_status>span{
+    position:absolute;
+    background-color: tomato;
+    font-size:13px;
+    border-radius:14px;
+    padding: 3px 7px 4px 7px;
+    color:white;
+    top:28px;
+    left:10px;
 }
