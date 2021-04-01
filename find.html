@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/styles.css">
         <meta="charset=utf-8">
-        <title>친구상태창</title>
+        <title>찾기</title>
         <script
         src="http://kit.fontawesome.com/6478f529f2.js"
         crossorigin="anonymous"
@@ -24,30 +24,40 @@
             </div>
         </div>
         <header class="header-status-bar">
-            <h1>친구</h1>
+            <h1>찾기</h1>
             <div id="header-status-bar_icon">
             <i class="fas fa-search"></i>
-            <i class="fas fa-music"></i>
-            <i class="fas fa-cog"></i>
+            <i id="header-dot_positon"class="fas fa-cog"><i id="header-dot" class="fas fa-circle"></i></i>
             </div>
         </header>
-        <p id=follow-count><i class="fas fa-exclamation-circle"></i>등록된 친구가 없습니다.<p>
-        <main id="friend-menu">
-            <div class ="user-avatar">
-            <img class ="user-avatar_img"src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MTVfMjcy%2FMDAxNTg2OTMxNzk4NTA5._g6bxYYNURBlJjRZ9wRohQT8Q3bItrqj1Xxn6hO5Ftkg.Zln79pImPeDrzw8eITigGb2MNpvLMSvPbCgYlBd0mOsg.JPEG.design_modi%2F02.jpg&type=sc960_832">
-            <span>Gorilla</span>
+        <main id="find-menu">
+            <div class="find-icons">
+                <div class="find-icons_icon">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="find-icons_icon">
+                    <i class="far fa-address-book"></i>
+                    <span>주소를 추가하시요</span>
+                </div>
+                <div class="find-icons_icon">
+                    <i class="far fa-id-badge"></i>
+                    <span>사용자 정보를 추가하시요</span>
+                </div>
+                <div class="find-icons_icon">
+                    <i class="far fa-envelope"></i>
+                    <span>초대</span>
+                </div>
             </div>
-            <h6 class="friend-menu-channel">채널<i class="fas fa-angle-up"></i></h6>
-            <div class="follower-avatar">
-            <img class ="follower-avatar_img"src=https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMDFfMjEw%2FMDAxNjAxNTQ0NTMzNjE2.yILOJ_rVxvMx1VE4qs8PcPj2scOc7q-LwYfPrCQG9lYg.gebI1YBk7Jr21Bs7a6cnZRJzacNc0nBtZ9_lO0qSw8kg.PNG.reatoyou%2FUntitled-1-1.png&type=a340>
-            <span>채널</span>
-            <p>2<i class="fas fa-angle-right"></i></p>
+            <div class="recommended-friends">
+                <h6>추천 친구 목록</h6>
+                <span>추천 친구가 존재하지 않습니다.</span>
             </div>
         </main>
         <nav class = "nav">
             <ul class="nav-list">   
                 <li class="nav-btn">
-                    <a class="nav-link" href="friends.html"><i class="fas fa-user"></i></a>
+                    <a class="nav-link" href="friends.html"><i class="far fa-user"></i></i></a>
                 </li>
                 <li class="nav-btn">
                     <a class="nav-link" href="chat.html"><i class="far fa-comment"></i></a>

@@ -6,6 +6,7 @@
     padding:10px;
     align-items:center;
     margin: 0px 25px;
+    position:relative;
 }
 .header-status-bar > h1{
     font-size:xx-large;
