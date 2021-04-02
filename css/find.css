@@ -1,3 +1,8 @@
+.find-btn{
+    font-size:larger;
+}
+
+
 #header-dot_positon{
     position:relative;
 }
@@ -19,11 +24,12 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-size:23px;
 }
 .find-icons_icon>span{
     display: flex;
     width: 70px;
-    padding: 15px;
+    padding-top: 15px;
     justify-content: center;
     font-size:13px;
 }
@@ -43,4 +49,73 @@
     text-align:center;
     font-size:18px;
     color:rgba(0,0,0,0.5);
+}
+.open-chat-status_title{
+    font-size:16px;
+    opacity:0.7;
+}
+
+.open-chat-status>span{
+    display:block;
+    text-align: end;
+    opacity:0.5;
+    margin-bottom: 10px;
+}
+.open-chat{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-chat-post>h5{
+    font-weight:600;
+    margin-bottom:10px;
+}
+.open-chat-post>h6{
+    text-transform: uppercase;
+    opacity:0.6;
+    margin-bottom: 3px;
+}
+.open-post-member{
+    display:flex;
+    align-items: center;
+}
+.open-post-member>img{
+    width:22px;
+    height:22px;
+}
+.open-post-member_count{
+    opacity: 0.5;
+    font-size:15px;
+}
+.divider{
+    width:1px;
+    height:15px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 5px;
+}
+.open-post-member_status{
+    font-size:15px;
+    color:lightcoral;
+}
+.open-chat-post{
+    position: relative;
+}
+.open-chat-post>img{
+    width:120px;
+    height:120px;
+    border-radius:10px;
+}
+.open-chat-post_heart{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding:5px;
+    border-radius:20px;
+    display: flex;
+    align-items: centers;
+    position:absolute;
+    right:5px;
+    bottom:10px;
+}
+.open-chat-post_heart>span{
+    margin-left:5px;
 }
