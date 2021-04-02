@@ -7,3 +7,51 @@
     left:48px;
     opacity: 0.6;
 }
+.icon{
+    display: flex;
+    align-items: center;
+}
+.more-icons{
+    margin: 35px 0;
+}
+.more-icons>.find-icons_icon{
+    font-size:30px;
+    opacity:0.8;
+}
+.more-icons2{
+    margin: 35px 0px;
+    border-bottom: solid 1px rgba(0,0,0,0.5);
+    padding-bottom:35px;
+    justify-content: space-between;
+}
+.more-icons2>.find-icons_icon{
+    font-size:30px;
+    opacity:0.8;
+}
+.block{
+    width: 70px;
+    height: 58px;
+}
+.suggestions_menu{
+    display:flex
+}
+.suggestions>h1{
+    font-weight:800;
+    font-size:20px;
+    margin-bottom:25px;
+}
+.suggestions_icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:35px;
+}
+.suggestions_icon>span{
+    padding-top:10px;
+}
+.suggestions_icon>i{
+    background-color: yellow;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 30px;
+}
