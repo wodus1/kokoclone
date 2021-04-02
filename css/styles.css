@@ -6,7 +6,11 @@
 @import "nav.css";
 @import "chats.css";
 @import "find.css";
+@import "more.css";
 body{
 background-color:white;
 height:1000vh;
+}
+.more-btn{
+    color:grey;
 }

@@ -1,0 +1,9 @@
+#more-menu{
+    margin:10px 30px;
+}
+.more_command{
+    position: absolute;
+    top: 10px;
+    left:48px;
+    opacity: 0.6;
+}
