@@ -8,6 +8,10 @@
     margin: 0px 25px;
     position:relative;
 }
+#header-status-bar_icon>a{
+    margin-left: 13px;
+    font-size: 19px;
+}
 .header-status-bar > h1{
     font-size:xx-large;
 }
