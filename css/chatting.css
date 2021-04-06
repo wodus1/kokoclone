@@ -88,3 +88,48 @@
 .message-row_own{
     justify-content: flex-end;
 }
+.chatting_input{
+    position:fixed;
+    bottom:0;
+    display: flex;
+    background-color: white;
+    padding:6px 9px;
+    width:100%;
+}
+.flus_icon{
+    display:flex;
+    font-size:33px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+.input_button{
+    display: flex;
+    width:100%;
+}
+.input{
+    position:relative;
+    width:100%;
+    padding:10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.chatting_icon{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    right:13px;
+    top:8px;
+}
+.chatting_icon>i{
+    margin-right: 10px;
+    opacity: 0.5;
+    font-size:26px;
+}
+.chatting_icon>button{
+    background-color: yellow;
+    border-radius: 50%;
+    border:none;
+    padding: 10px;
+}
